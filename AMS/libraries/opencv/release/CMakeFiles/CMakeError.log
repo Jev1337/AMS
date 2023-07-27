@@ -1,0 +1,374 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_487f1/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_487f1.dir\build.make CMakeFiles/cmTC_487f1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_487f1.dir/src.cxx.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe     -O3 -DNDEBUG   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles\cmTC_487f1.dir\src.cxx.obj -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_487f1.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_487f1.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_487f1.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_487f1.dir/objects.a @CMakeFiles\cmTC_487f1.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_487f1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_487f1.exe -Wl,--out-implib,libcmTC_487f1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_487f1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_c954d/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_c954d.dir\build.make CMakeFiles/cmTC_c954d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c954d.dir/src.cxx.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe     -O3 -DNDEBUG   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles\cmTC_c954d.dir\src.cxx.obj -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_c954d.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c954d.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c954d.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_c954d.dir/objects.a @CMakeFiles\cmTC_c954d.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_c954d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c954d.exe -Wl,--out-implib,libcmTC_c954d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c954d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_3247e/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_3247e.dir\build.make CMakeFiles/cmTC_3247e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3247e.dir/src.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles\cmTC_3247e.dir\src.c.obj   -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_3247e.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3247e.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3247e.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_3247e.dir/objects.a @CMakeFiles\cmTC_3247e.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_3247e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3247e.exe -Wl,--out-implib,libcmTC_3247e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3247e.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_faa4c/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_faa4c.dir\build.make CMakeFiles/cmTC_faa4c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faa4c.dir/src.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles\cmTC_faa4c.dir\src.c.obj   -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_faa4c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_faa4c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_faa4c.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_faa4c.dir/objects.a @CMakeFiles\cmTC_faa4c.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_faa4c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_faa4c.exe -Wl,--out-implib,libcmTC_faa4c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_faa4c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args''
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_02f5c/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_02f5c.dir\build.make CMakeFiles/cmTC_02f5c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02f5c.dir/src.cxx.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe     -O3 -DNDEBUG   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles\cmTC_02f5c.dir\src.cxx.obj -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args'
+Linking CXX executable cmTC_02f5c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_02f5c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_02f5c.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_02f5c.dir/objects.a @CMakeFiles\cmTC_02f5c.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_02f5c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_02f5c.exe -Wl,--out-implib,libcmTC_02f5c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_02f5c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args''
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_43d59/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_43d59.dir\build.make CMakeFiles/cmTC_43d59.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43d59.dir/src.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles\cmTC_43d59.dir\src.c.obj   -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args'
+Linking C executable cmTC_43d59.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_43d59.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_43d59.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_43d59.dir/objects.a @CMakeFiles\cmTC_43d59.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_43d59.dir/objects.a -Wl,--no-whole-archive  -o cmTC_43d59.exe -Wl,--out-implib,libcmTC_43d59.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_43d59.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_71ca7/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_71ca7.dir\build.make CMakeFiles/cmTC_71ca7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71ca7.dir/src.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\cmTC_71ca7.dir\src.c.obj   -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_71ca7.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_71ca7.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_71ca7.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_71ca7.dir/objects.a @CMakeFiles\cmTC_71ca7.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_71ca7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_71ca7.exe -Wl,--out-implib,libcmTC_71ca7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_71ca7.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32''
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_20775/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_20775.dir\build.make CMakeFiles/cmTC_20775.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20775.dir/src.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles\cmTC_20775.dir\src.c.obj   -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32'
+Linking C executable cmTC_20775.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_20775.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_20775.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_20775.dir/objects.a @CMakeFiles\cmTC_20775.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_20775.dir/objects.a -Wl,--no-whole-archive  -o cmTC_20775.exe -Wl,--out-implib,libcmTC_20775.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_20775.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-shift-negative-value''
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shift-negative-value'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_76c97/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_76c97.dir\build.make CMakeFiles/cmTC_76c97.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76c97.dir/src.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG   -Wno-shift-negative-value -o CMakeFiles\cmTC_76c97.dir\src.c.obj   -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-shift-negative-value'
+Linking C executable cmTC_76c97.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_76c97.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_76c97.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_76c97.dir/objects.a @CMakeFiles\cmTC_76c97.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_76c97.dir/objects.a -Wl,--no-whole-archive  -o cmTC_76c97.exe -Wl,--out-implib,libcmTC_76c97.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_76c97.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_066e4/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_066e4.dir\build.make CMakeFiles/cmTC_066e4.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_066e4.dir/CheckFunctionExists.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG   -o CMakeFiles\cmTC_066e4.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c:7:3: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_066e4.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_066e4.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_066e4.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_066e4.dir/objects.a @CMakeFiles\cmTC_066e4.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_066e4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_066e4.exe -Wl,--out-implib,libcmTC_066e4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_066e4.dir\linklibs.rsp
+CMakeFiles\cmTC_066e4.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `jbg_newlen'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_066e4.dir\build.make:98: recipe for target 'cmTC_066e4.exe' failed
+mingw32-make.exe[1]: *** [cmTC_066e4.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_066e4/fast' failed
+mingw32-make.exe: *** [cmTC_066e4/fast] Error 2
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_5be8d/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_5be8d.dir\build.make CMakeFiles/cmTC_5be8d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5be8d.dir/CheckFunctionExists.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles\cmTC_5be8d.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c:7:3: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_5be8d.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5be8d.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5be8d.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_5be8d.dir/objects.a @CMakeFiles\cmTC_5be8d.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_5be8d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5be8d.exe -Wl,--out-implib,libcmTC_5be8d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5be8d.dir\linklibs.rsp
+CMakeFiles\cmTC_5be8d.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `mmap'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_5be8d.dir\build.make:98: recipe for target 'cmTC_5be8d.exe' failed
+mingw32-make.exe[1]: *** [cmTC_5be8d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_5be8d/fast' failed
+mingw32-make.exe: *** [cmTC_5be8d/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-misleading-indentation''
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_dbd3f/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_dbd3f.dir\build.make CMakeFiles/cmTC_dbd3f.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbd3f.dir/src.c.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles\cmTC_dbd3f.dir\src.c.obj   -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-misleading-indentation'
+Linking C executable cmTC_dbd3f.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dbd3f.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_dbd3f.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_dbd3f.dir/objects.a @CMakeFiles\cmTC_dbd3f.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wno-narrowing -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_dbd3f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_dbd3f.exe -Wl,--out-implib,libcmTC_dbd3f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dbd3f.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-misleading-indentation''
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_0135b/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_0135b.dir\build.make CMakeFiles/cmTC_0135b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0135b.dir/src.cxx.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles\cmTC_0135b.dir\src.cxx.obj -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-misleading-indentation'
+Linking CXX executable cmTC_0135b.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0135b.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0135b.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_0135b.dir/objects.a @CMakeFiles\cmTC_0135b.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_0135b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0135b.exe -Wl,--out-implib,libcmTC_0135b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0135b.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-unused-private-field''
+Compilation failed:
+    source file: 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_a0986/fast"
+C:/Qt/Qt5.9.9/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_a0986.dir\build.make CMakeFiles/cmTC_a0986.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0986.dir/src.cxx.obj
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG   -Wno-unused-private-field -o CMakeFiles\cmTC_a0986.dir\src.cxx.obj -c C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx
+C:\Users\malek\Documents\GitHub\2a15-ninjahub\AMS\libraries\opencv\release\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-unused-private-field'
+Linking CXX executable cmTC_a0986.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a0986.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a0986.dir/objects.a
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_a0986.dir/objects.a @CMakeFiles\cmTC_a0986.dir\objects1.rsp
+C:\Qt\Qt5.9.9\Tools\mingw530_32\bin\g++.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_a0986.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a0986.exe -Wl,--out-implib,libcmTC_a0986.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a0986.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+

@@ -1,0 +1,67 @@
+# Target labels
+ Main
+ opencv_videoio
+ Module
+# Source files and their labels
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/include/opencv2/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/include/opencv2/videoio/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/include/opencv2/videoio/cap_ios.h
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/include/opencv2/videoio/videoio_c.h
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap.cpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_images.cpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_mjpeg_encoder.cpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_mjpeg_decoder.cpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_cmu.cpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_dshow.cpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_vfw.cpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_ffmpeg.cpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/precomp.hpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_dshow.hpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/modules/videoio/src/cap_ffmpeg_impl.hpp
+ Main
+ opencv_videoio
+ Module
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/cvconfig.h
+C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/opencv2/opencv_modules.hpp

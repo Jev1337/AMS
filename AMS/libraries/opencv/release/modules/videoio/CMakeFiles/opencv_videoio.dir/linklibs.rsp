@@ -1,0 +1,1 @@
+ -LC:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/sources/3rdparty/lib ../../lib/libopencv_imgcodecs320.dll.a -lglu32 -lopengl32 -lvfw32 -lwinmm ../../lib/libopencv_imgproc320.dll.a ../../lib/libopencv_core320.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

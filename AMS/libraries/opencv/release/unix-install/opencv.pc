@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=C:/Users/malek/Documents/GitHub/2a15-ninjahub/AMS/libraries/opencv/release/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/x86/mingw/lib
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 3.2.0
+Libs: -L${exec_prefix}/x86/mingw/lib -lopencv_shape320 -lopencv_stitching320 -lopencv_objdetect320 -lopencv_superres320 -lopencv_videostab320 -lopencv_calib3d320 -lopencv_features2d320 -lopencv_highgui320 -lopencv_videoio320 -lopencv_imgcodecs320 -lopencv_video320 -lopencv_photo320 -lopencv_ml320 -lopencv_imgproc320 -lopencv_flann320 -lopencv_core320
+Libs.private: -lcomctl32 -lgdi32 -lole32 -lsetupapi -lws2_32 -LC:/Qt/Qt5.9.9/5.9.9/mingw53_32/bin -lQt5Core -lQt5Gui -lQt5Widgets -lQt5Test -lQt5Concurrent -lQt5OpenGL -lvfw32 -lwinmm -lglu32 -lopengl32
+Cflags: -I${includedir_old} -I${includedir_new}
