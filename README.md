@@ -80,7 +80,7 @@ This app is currently in maintenance, once it's finished, visit again for instru
 - [x] Database Link
 - [x] CRUD (Create Read Update Delete) of all entities
 - [x] Metiers
-- [ ] Software Logic
+- [x] Software Logic
 
 See the [open issues](https://github.com/ProjetCPP2A15/Smart-Ambulance-Agency/issues) for a full list of proposed features and known issues.
 
